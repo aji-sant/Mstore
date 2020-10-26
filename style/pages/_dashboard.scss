@@ -72,4 +72,72 @@
       }
     }
   }
+
+  .section-content {
+    margin-top: 100px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    h5 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #0c0d36;
+    }
+
+    .dashboard-title {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 36px;
+      color: #0c0d36;
+    }
+
+    .dashboard-subtitle {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #9191a9;
+    }
+
+    .product-title {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #c5c5c5;
+    }
+
+    .product-subtitle {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      color: #0c0d36;
+    }
+    .nav-pills {
+      .nav-link {
+        font-weight: normal;
+        font-size: 18px;
+        color: #9191a9;
+        border-radius: 0;
+
+        &.active {
+          font-weight: 500;
+          font-size: 18px;
+          color: #0c0d36;
+          border-bottom: solid #0c0d36;
+          background: none;
+        }
+      }
+    }
+
+    .gallery-container {
+      .delete-gallery {
+        display: block;
+        position: absolute;
+        top: -10px;
+        right: 0;
+      }
+    }
+  }
 }
